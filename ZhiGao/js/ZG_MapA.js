@@ -13,7 +13,10 @@ displayName: resultObject.display_name,
 destination: Cesium.Rectangle.fromDegrees(
 bboxDegrees[2],bboxDegrees[0],bboxDegrees[3],bboxDegrees[1])};});});}
 var viewer = new Cesium.Viewer('cesiumContainer',{  
-imageryProvider:new Cesium.WebMapServiceImageryProvider({url : '/GlobalTMS',layers: 'LocalTMS'}),animation: true,baseLayerPicker: false,geocoder: false,timeline: true,sceneModePicker: false,navigationHelpButton: false,infoBox: true,vrButton: false,homeButton:true,geocoder: new OpenStreetMapNominatimGeocoder(),
+imageryProvider:new Cesium.WebMapServiceImageryProvider({   
+			url : '/GlobalTMS',         
+			layers: 'LocalTMS'   
+		}), animation: true,baseLayerPicker: false,geocoder: false,timeline: true,sceneModePicker: false,navigationHelpButton: false,infoBox: true,vrButton: false,homeButton:true,geocoder: new OpenStreetMapNominatimGeocoder(),
 });
 viewer.scene.globe.depthTestAgainstTerrain = true;
 viewer._cesiumWidget._creditContainer.style.display="none";
