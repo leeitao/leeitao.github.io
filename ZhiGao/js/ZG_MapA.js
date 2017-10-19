@@ -67,7 +67,7 @@ url: "http://t0.tianditu.com/cia_w/wmts?service=wmts&request=GetTile&version=1.
 layer: "tdtImgAnnoLayer", 
 style: "default", format: "image/jpeg", tileMatrixSetID: "GoogleMapsCompatible", show: false}));
 viewer.camera.flyTo({
-destination: Cesium.Cartesian3.fromDegrees(114.64204722222222, 37.88704166666667, 10946.0000313)});
+destination: Cesium.Cartesian3.fromDegrees(114.6352161367,37.8933088638, 1546.0000313)});
 function createModelXTZ(url, height) {
 var position = Cesium.Cartesian3.fromDegrees(114.6352161367,37.8933088638, height);
 var heading = Cesium.Math.toRadians(0);
