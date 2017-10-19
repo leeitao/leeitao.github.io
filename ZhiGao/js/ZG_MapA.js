@@ -59,7 +59,7 @@ DongZhi.onclick = function(){
 	toDate(2017,11,22,8);}
 var layers = viewer.imageryLayers;
 var GlobalTMS = layers.addImageryProvider(Cesium.createTileMapServiceImageryProvider({  
-url : '/GlobalTMS',  
+url : './GlobalTMS',  
 credit : '离线本地TMS影像瓦片' 
 }));
 viewer.imageryLayers.addImageryProvider(new Cesium.WebMapTileServiceImageryProvider({ 
