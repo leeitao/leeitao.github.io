@@ -23,6 +23,7 @@ viewer._cesiumWidget._creditContainer.style.display="none";
 viewer.extend(Cesium.viewerCesiumNavigationMixin, {});
 Cesium.Camera.DEFAULT_VIEW_RECTANGLE =
 Cesium.Rectangle.fromDegrees(80, 22, 130, 50);
+viewer.scene.globe.enableLighting = true;
 viewer.scene.fog.enabled = true;
 viewer.shadows = true;
 var d = new Date();
