@@ -16,7 +16,8 @@ var viewer = new Cesium.Viewer('cesiumContainer',{
 imageryProvider:new Cesium.WebMapServiceImageryProvider({   
 			url : './GlobalTMS',         
 			layers: 'LocalTMS'   
-		}), animation: true,baseLayerPicker: false,geocoder: false,timeline: true,sceneModePicker: false,navigationHelpButton: false,infoBox: true,vrButton: false,homeButton:true,geocoder: new OpenStreetMapNominatimGeocoder(),
+		}), 
+animation: true,baseLayerPicker: false,geocoder: false,timeline: true,sceneModePicker: false,navigationHelpButton: false,infoBox: true,vrButton: false,homeButton:true,geocoder: new OpenStreetMapNominatimGeocoder(),
 });
 viewer.scene.globe.depthTestAgainstTerrain = true;
 viewer._cesiumWidget._creditContainer.style.display="none";
@@ -76,19 +77,4 @@ var pitch =0;var roll = 0;
 var hpr = new Cesium.HeadingPitchRoll(heading, pitch, roll);
 var orientation = Cesium.Transforms.headingPitchRollQuaternion(position, hpr);
 var entity = viewer.entities.add({name : url,position : position,orientation : orientation,model : {uri : url,}});}
-createModelXTZ('./Data/01.gltf', 0.0);
-createModelXTZ('./Data/02.gltf', 0.0);
-createModelXTZ('./Data/03.gltf', 0.0);
-createModelXTZ('./Data/04.gltf', 0.0);
-createModelXTZ('./Data/05.gltf', 0.0);
-createModelXTZ('./Data/06.gltf', 0.0);
-createModelXTZ('./Data/07.gltf', 0.0);
-createModelXTZ('./Data/08.gltf', 0.0);
-createModelXTZ('./Data/09.gltf', 0.0);
-createModelXTZ('./Data/10.gltf', 0.0);
-createModelXTZ('./Data/11.gltf', 0.0);
-createModelXTZ('./Data/12.gltf', 0.0);
-createModelXTZ('./Data/13.gltf', 0.0);
-createModelXTZ('./Data/14.gltf', 0.0);
-createModelXTZ('./Data/15.gltf', 0.0);
-createModelXTZ('./Data/16.gltf', 0.0);
+for (i=0;i<17;i++){if(i<10){createModelXTZ('./Data/0'+[i]+'.gltf',0.0);}else{createModelXTZ('./Data/'+[i]+'.gltf',0.0);}}
