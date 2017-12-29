@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <panorama appversion="5.2.1" id="node1" apprev="15974">
-  <input height="3039" levelbias="0.400" levelingroll="0" levelingpitch="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" leveltilesize="510" levelbiashidpi="0.400" width="3039">
-    <level height="3039" predecode="0" preload="0" width="3039"/>
-    <level height="1519" predecode="0" preload="0" width="1519"/>
-    <level height="759" predecode="0" preload="0" width="759"/>
-    <level height="379" predecode="1" preload="1" width="379"/>
+  <input height="3792" levelbias="0.400" levelingroll="0" levelingpitch="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" leveltilesize="510" levelbiashidpi="0.400" width="3792">
+    <level height="3792" predecode="0" preload="0" width="3792"/>
+    <level height="1896" predecode="0" preload="0" width="1896"/>
+    <level height="948" predecode="0" preload="0" width="948"/>
+    <level height="474" predecode="1" preload="1" width="474"/>
     <preview color="0x808080" strip="1"/>
   </input>
   <view pannorth="0" fovmode="0">
@@ -13,7 +13,7 @@
     <min pan="0" fov="5" tilt="-90"/>
     <max scaletofit="1" pan="360" fovstereographic="270" fovfisheye="360" fov="120" tilt="90"/>
   </view>
-  <userdata title="" copyright="" info="" description="" comment="" latitude="" customnodeid="" tags="UP30_45Down-30_-45" longitude="" author="" datetime="2017/12/29 14:01" source=""/>
+  <userdata title="" copyright="" info="" description="" comment="" latitude="" customnodeid="" tags="Up45own-45 2" longitude="" author="" datetime="2017/12/29 15:58" source=""/>
   <hotspots height="20" wordwrap="1" width="180">
     <label height="20" wordwrap="1" bordercolor="0x000000" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1" border="1" backgroundcolor="0xffffff" textalpha="1" background="1" borderradius="1" width="180"/>
     <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
