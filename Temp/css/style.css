@@ -420,7 +420,7 @@ ul.last li a:hover{
 }
 .col_1_of_3:first-child { margin-left: 0; }
 h2.head{
-	font-size: 1.7em;
+	font-size: 1.2em;
 	text-transform: uppercase;
 	color: #777;
 	margin-bottom: 10px;
@@ -479,7 +479,7 @@ h2.head{
 }
 p.title{
 	color: #777;
-	font-size:1.3em;
+	font-size:0.8em;
 }
 p.title a:hover{
 	color:#7DB122;
@@ -2225,7 +2225,7 @@ ul.delivery-list li a:hover{
 		margin: 12px 0px 0 3px;
 	}
 	h2.head {
-		font-size:1.5em;
+		font-size:1.2em;
 	}
 	.btn a {
 		left: 19px;
@@ -2314,7 +2314,7 @@ ul.delivery-list li a:hover{
 		margin: 12px 0px 0 10px;
 	}
 	h2.head {
-		font-size:1.5em;
+		font-size:1.2em;
 	}
 	.btn a {
 		left: 12px;
@@ -2422,7 +2422,7 @@ ul.delivery-list li a:hover{
 		margin: 12px 0px 0 10px;
 	}
 	h2.head {
-		font-size:1.5em;
+		font-size:1.2em;
 	}
 	.btn a {
 		left: 12px;
@@ -2592,7 +2592,7 @@ ul.delivery-list li a:hover{
 		margin: 12px 0px 0 10px;
 	}
 	h2.head {
-		font-size:1.5em;
+		font-size:1.2em;
 	}
 	.btn a {
 		left: 12px;
@@ -2762,7 +2762,7 @@ ul.delivery-list li a:hover{
 		margin: 12px 0px 0 10px;
 	}
 	h2.head {
-		font-size:1.5em;
+		font-size:1.2em;
 	}
 	.btn a {
 		left: 12px;
