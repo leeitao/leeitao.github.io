@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<title>实景三维展示系统</title>
+	<!-- 引入CesiumJS -->
+	<script src="Cesium136/Cesium_min.js"></script>
+	<script src="js/viewerCesiumNavigationMixin.js"></script>
+
+	<link href="UI/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="Cesium136/Widgets/widgets.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<!-- 添加系统按钮 -->
+	<div class="btn-group" role="group" aria-label="..." style = "position:absolute; z-index:2; left:5px; top:5px;">
+	
+		<button id = 'YZC' type="button" class="btn btn-danger">杨庄村</button>	
+		
+		<button id = 'NFZ' type="button" class="btn btn-danger">南冯庄村</button>
+		
+		
+		
+	</div>
+	
+	<div id="cesiumContainer"></div>
+	<!-- 加载配置js文件 -->
+	<script src="js/iTao.js"></script>
+	<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+	<script src="UI/js/bootstrap.min.js"></script>
+</body>
+</html>
