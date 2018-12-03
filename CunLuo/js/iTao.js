@@ -78,7 +78,7 @@ YZC.onclick = function(){
 		destination: Cesium.Cartesian3.fromDegrees(115.2547259,36.3848511,1000.0)
 	});
 	
-	C3D('../Data/YangZhuangCun/Production_1A_C3D.json',-25 );
+	C3D('./Data/YangZhuangCun/Production_1A_C3D.json',-25 );
 	
 }
 
@@ -92,7 +92,7 @@ NFZ.onclick = function(){
 		destination: Cesium.Cartesian3.fromDegrees(115.2582587,36.3801254,1000.0)
 	});
 	
-	C3D('../Data/YangZhuangCun/Production_7.json',-10 );
+	//C3D('./Data/YangZhuangCun/Production_7.json',-10 );
 	
 	
 	
