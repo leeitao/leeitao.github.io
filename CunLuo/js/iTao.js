@@ -31,7 +31,7 @@ var viewer = new Cesium.Viewer('cesiumContainer',{
 //viewer.extend(Cesium.viewerCesium3DTilesInspectorMixin);
 
 //添加指北针
-viewer.extend(Cesium.viewerCesiumNavigationMixin, {});
+//viewer.extend(Cesium.viewerCesiumNavigationMixin, {});
 
 //相机能否看穿地面
 viewer.scene.globe.depthTestAgainstTerrain = true;
