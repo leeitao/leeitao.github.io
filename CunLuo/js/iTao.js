@@ -78,7 +78,7 @@ YZC.onclick = function(){
 		destination: Cesium.Cartesian3.fromDegrees(115.2547259,36.3848511,1000.0)
 	});
 	
-	C3D('./Data/YangZhuangCun/Production_1A_C3D.json',-25 );
+	C3D('./Data/YangZhuangCun/Production_1A_C3D.json',-20 );
 	
 }
 
@@ -89,11 +89,10 @@ var NFZ = document.getElementById('NFZ');
 NFZ.onclick = function(){
 	//相机飞行至项目
 	viewer.camera.flyTo({
-		destination: Cesium.Cartesian3.fromDegrees(115.2582587,36.3801254,1000.0)
+		destination: Cesium.Cartesian3.fromDegrees(115.2580608,36.3799780,1000.0)
 	});
 	
-	//C3D('./Data/YangZhuangCun/Production_7.json',-10 );
-	
+	C3D('./Data/NanFengZhuang/Production_1B_C3d.json',-20 );
 	
 	
 }
