@@ -97,4 +97,18 @@ NFZ.onclick = function(){
 	
 }
 
+//阎庙村实景模型
+var YMC = document.getElementById('YMC');
+
+YMC.onclick = function(){
+	//相机飞行至项目
+	viewer.camera.flyTo({
+		destination: Cesium.Cartesian3.fromDegrees(115.2794172,36.3967860,1500.0)
+	});
+	
+	C3D('./Data/YanMiaoCun/Production_1C_C3d.json',-20 );
+	
+	
+}
+
 
