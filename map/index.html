@@ -25,7 +25,6 @@ var mapMaxZoom = 14;
 var layer = new ol.layer.Tile({
   extent: mapExtent,
   source: new ol.source.XYZ({
-    attributions: [new ol.Attribution({html: 'map2; Rendered with <a href="https://www.maptiler.com/">MapTiler</a>'})],
     url: "{z}/{x}/{y}.png",
     tilePixelRatio: 1.000000,
     minZoom: mapMinZoom,
